@@ -25,9 +25,9 @@ piggBank += 10
 print(piggBank)
 piggBank += 20
 print(piggBank)
-piggBank = piggBank / 2
+piggBank /= 2
 print(piggBank)
-piggBank = piggBank * 3
+piggBank *= 3
 print(piggBank)
 piggBank -= 3
 print(piggBank)
