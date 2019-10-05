@@ -11,8 +11,16 @@
  - Goal number of steps: The user's goal for number of steps to take each day
  - Average heart rate: The user's average heart rate over the last 24 hours
  */
-
-
+//User's name should be a constant since it will not chage
+let name = "Jason"
+//User's age will change every year so it should be a variable
+var age = 17
+//Steps taken will change every day so it should be a variable
+var numberOfStepsTakenToday = 0
+//Goal number of steps may change depends on users, so it should be a variable
+var goalNumberOfSteps = 3000
+//Average heart rate will be changing all the time so it should be a varibale
+var averageHeartRate = 0
 
 
 
