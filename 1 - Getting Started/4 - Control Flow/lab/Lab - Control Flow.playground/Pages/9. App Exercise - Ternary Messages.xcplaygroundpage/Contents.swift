@@ -7,12 +7,10 @@
  */
 let stepGoal = 10000
 let steps = 3948
+var comment:String
+    
 
-if steps < stepGoal / 2 {
-    print("Almost halfway!")
-} else {
-    print("Over halfway!")
-}
+comment = steps < stepGoal / 2 ? "Almost halfway!" : "Over halfway!"
 
 
 /*:
